@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/cedric/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/cedric/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/cedric/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/cedric/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/cedric/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/cedric/proprietary/bin/tcmd:system/bin/tcmd \
@@ -868,7 +867,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
     libtime_genoff \
     atfwd \
     TimeService \
