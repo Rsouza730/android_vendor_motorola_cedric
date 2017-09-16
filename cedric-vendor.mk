@@ -874,7 +874,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     com.qualcomm.location \
     embms \
-    CNEService \
     colorservice \
     ims \
     imssettings \
