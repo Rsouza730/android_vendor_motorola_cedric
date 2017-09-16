@@ -863,7 +863,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/cedric/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/cedric/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
-    vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so
+    vendor/motorola/cedric/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
+    vendor/motorola/cedric/proprietary/vendor/lib/libuy.so:system/vendor/lib/libuy.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
